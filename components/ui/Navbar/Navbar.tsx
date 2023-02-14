@@ -31,6 +31,9 @@ const Navbar = () => {
               <Link href="/account">
                 <a className={s.link}>Account</a>
               </Link>
+              <Link href="/restore">
+                <a className={s.link}>Restore</a>
+              </Link>
             </nav>
           </div>
 

@@ -73,32 +73,11 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="col-span-1 lg:col-span-6 flex items-start lg:justify-end text-white">
-          <div className="flex space-x-6 items-center h-10">
-            <a
-              aria-label="Github Repository"
-              href="https://github.com/vercel/nextjs-subscription-payments"
-            >
-              <GitHub />
-            </a>
-          </div>
+        <div className="py-12 flex flex-col md:flex-row justify-between items-center space-y-4 bg-zinc-900">
+          <span>&copy; 2023 Narek Maloyan, Inc.</span>
         </div>
       </div>
-      <div className="py-12 flex flex-col md:flex-row justify-between items-center space-y-4 bg-zinc-900">
-        <div>
-          <span>&copy; 2020 ACME, Inc. All rights reserved.</span>
-        </div>
-        <div className="flex items-center">
-          <span className="text-white">Crafted by</span>
-          <a href="https://vercel.com" aria-label="Vercel.com Link">
-            <img
-              src="/vercel.svg"
-              alt="Vercel.com Logo"
-              className="inline-block h-6 ml-4 text-white"
-            />
-          </a>
-        </div>
-      </div>
+
     </footer>
   );
 }

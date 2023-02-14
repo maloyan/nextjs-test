@@ -6,9 +6,4 @@ services:
       - 4123:3000
     build: .
     volumes:
-      - ./pages:/app/pages
-      - ./styles:/app/styles
-      - ./public:/app/public
-      - ./supabase:/app/supabase
-      - ./utils:/app/utils
       - ./:/app
